@@ -1,0 +1,38 @@
+*{
+    font-family: comfortaa, cursive;
+    font-weight: 100;
+    
+}
+body{
+    background-color: aqua;
+}
+div{
+    margin: 10px;    
+    padding-inline-start: 5px;
+    padding-inline-end: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#Div1{
+    text-align: center;
+}
+#Div2{
+    text-align: center;
+}
+#Div3{
+    text-align: center;
+}
+#Div4{
+    text-align: center;
+}
+#Div5{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}

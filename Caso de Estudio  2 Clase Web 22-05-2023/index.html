@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel="stylesheet" href="style.css">
+        <title>Evaluación Del Evento</title>
+    </head>
+    <body>
+        <div id="General">
+            <h1><b>Encuesta De Satisfacción Del Evento</b></h1>
+            <form action="" method="get" name="Log-In">
+                <div id="Div1">
+                    <h2>Requisitos:</h2>
+                    <label>Ingresa tu nombre completo: </label>
+                    <input type="text" name="Name" id="Text" placeholder="Ej. Haniel Antonio Tuxpeño González"><br>
+                    <div id="Div3">
+                        <label>Selecciona tu sexo:  </label>
+                        <input type="checkbox" name="Selección" id="CajaS"><label>M</label>
+                        <input type="checkbox" name="Selección" id="CajaS"><label>F</label>
+                    </div><br>
+                    <label>Ingresa tu correo electrónico: </label>
+                    <input type="email" name="E-mail" id="Text" placeholder="Ej. 20221026@uthh.edu.mx"><br>
+                    <label>Ingresa tu número de telefono: </label>
+                    <input type="number" name="Teléfono" id="Tel" placeholder="Ej. 7891477851"><br>
+                    <label>Ingresa tu edad: </label>
+                    <input type="number" name="Edad" id="Edad" placeholder="Ej. 19"><br>
+                    <label for="Name" id="CajasS">Evalúa el evento: </label>
+                    <select name="Ocupación"> 
+                        <option>Excelente 😎</option>
+                        <option>Bueno 👍</option>
+                        <option>Regular 😐</option>
+                        <option>Malo 🥱</option>
+                    </select><br>
+                    <label>Dejanos tus recomendaciones o comentarios sobre el evento: </label><br>
+                    <textarea id="Comentarios" name="Comentarios" placeholder="Deja un comentario"></textarea><br>
+                    <div id="Div3">
+                        <label>¿Volverías a participar en un evento como este?</label><br>
+                        <input type="radio" name="Selección" id="CajaS"><label> Si</label>
+                        <input type="radio" name="Selección" id="CajaS"><label> No</label>
+                    </div><br>
+                    <div>
+                        <label>Si tu respuesta es "Si", haznos saber tu dirección para <br> enviarte invitaciones a los próximos eventos</label><br><br>
+                        <label>Ingresa Tu Dirección: </label><br>
+                        <input type="text" name="Dirección" id="Text" placeholder="Ej. Francisco I. Madero #10"><br><br>
+                        <button type="submit" value="EnviarDatos">Enviar Datos</button><br><br>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

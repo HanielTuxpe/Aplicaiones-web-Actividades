@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel="stylesheet" href="style.css">
+        <title>Registro de usuarios para una conferencia</title>
+    </head>
+    <body>
+        <h1>¡Registrate para el evento!</h1>
+        <div id="DGeneral">
+            <form action="" method="get" name="Log-In">
+                <div id="Div1">
+                    <h2>Requisitos:</h2>
+                    <label>Ingresa Tu Nombre Completo: </label>
+                    <input type="text" name="Name" id="Nombre" placeholder="Ej. Haniel Antonio Tuxpeño González"><br>
+                    <label>Ingresa Tu Correo Electrónico: </label>
+                    <input type="email" name="E-mail" id="Correo" placeholder="Ej. 20221026@uthh.edu.mx"><br>
+                </div>
+                <div id="Div2">
+                    <label for="Name" id="CajasS">Elije Una Opción: </label>
+                    <select name="Ocupación">
+                        <option>Ingeniero de Software</option>
+                        <option>Programador Web</option>
+                        <option>Desarrollador de videojuegos</option>
+                        <option>Diseñador Web</option>
+                        <option>Desarrollador móvil</option>
+                    </select>
+                </div>
+                <div id="Div3">
+                    <label>Escoge Tu Talla de Camisa: </label><br>
+                    <input type="button" value="Chica (S)">
+                    <input type="button" value="MEdiana (M)">
+                    <input type="button" value="Grande (L)">
+                    <input type="button" value="Extra Grande (XL)">
+                </div>
+                <div id="Div4">
+                    <label>Elije Tu Preferencia Dietética: </label><br>
+                    <input type="checkbox" name="Selección" id="CajaS">
+                    <label>Vegetariano</label>
+                    <input type="checkbox" name="Selección" id="CajaS">
+                    <label>Vegano</label>
+                    <input type="checkbox" name="Selección" id="CajaS">
+                    <label>Sin gluten</label>
+                    <input type="checkbox" name="Selección" id="CajaS">
+                    <label>Sin restricciones</label><br>
+                </div>
+                <div id="Div5">
+                    <h2>Informacion Personal</h2>
+                    <label>Ingresa Tu Número De Telefono: </label>
+                    <input type="number" name="Teléfono" id="Tel" placeholder="Ej. 7891477851"><br>
+                    <label>Ingresa Tu Dirección: </label>
+                    <input type="text" name="Dirección" id="Dir" placeholder="Ej. Francisco I. Madero #10"><br>
+                    <label>Ingresa Tu Fecha De Nacimiento: </label>
+                    <input type="date" name="Fecha" id="Fech_Nac"><br>
+                    <label>Ingresa Tu CURP: </label>
+                    <input type="text" name="CURP" id="CURP" placeholder="Ej. DJFH47392KD84932JD"><br>
+                </div>
+                <button type="submit" value="EnviarDatos">Enviar Datos</button>
+            </form>
+        </div>
+    </body>
+</html>

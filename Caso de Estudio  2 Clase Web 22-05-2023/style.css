@@ -1,0 +1,51 @@
+*{
+    font-family: comfortaa, cursive;
+    font-weight: 100;    
+}
+body{
+    background-color: darksalmon;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#General{
+    border: 5px;
+    border-color: whitesmoke;
+    border-style: solid;
+    border-radius: 10%;
+    box-shadow: 0px 0px 50px 5px #ffff;
+    margin: 5px;    
+    padding-inline-start: 5px;
+    padding-inline-end: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 700px;
+}
+#Div1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 600px;
+}
+#Div3{
+    text-align: center;
+    display: flex;
+}
+#Text{
+    width: 300px;
+}
+h1{
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+#Comentarios{
+    width: 500px;
+    height: 50px;
+}
+button{
+    background-color: lawngreen;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' href='normalize.css'>
+        <link rel='stylesheet' href='style.css'>
+        <script src="Main.js"></script>
+        <title>Calculadora De Fórmula de Herón</title>
+    </head>
+    <body>
+        <div id="MainConttainer" class="Content">
+            <h2 id="title">Calculador Área de un triángulo<br>Fórmula de Heron</h2><br>
+            <label for="name">Lado 1</label>
+            <p>
+                <input type="number" name="v1" id="v1" placeholder="Lado 1" onblur="capturan1()" value="0"/>
+            </p><br>
+            <label for="name">Lado 2</label>
+            <p>
+                <input type="number" name="v2" id="v2" placeholder="Lado 2" onblur="capturan2()" value="0"/>
+            </p><br>
+            <label for="name">Lado 3</label>
+            <p>
+                <input type="number" name="v2" id="v3" placeholder="Lado 3" onblur="capturan3()" value="0"/>
+            </p><br>
+            <div>
+                <input type="button" value="Perímetro" onclick="Perimetro()" />
+                <input type="button" value="Área" onclick="Area()" />
+                <input type="button" value="Tipo" onclick="TipoT()" />
+            </div><br>
+            <h2 id="texto"></h2>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es">    
+    <head>
+        <meta charset="utf-8">
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel="stylesheet" type="text/css" href="normalize.css">
+        <link rel="stylesheet" typw="text/css" href="style.css">
+        <title> Conversor de Dolar a Peso </title>
+    </head>
+    <body>
+        <div id="Container">
+            <h1 id="Title">Convierte de Dolar (USD) a Peso (MXN) y viceversa</h1>
+            <form id="conversor" method="get" autocomplete="off">
+                <div class="Divs">
+                    <label for="Valor">Indica el valor del dolar : </label>
+                    <input type="number" name="Valor" id="Val" required onblur="ValorD()">
+                </div>
+                <div class="Divs">
+                    <label for="Cantidad">Cantidad a convertir : </label>
+                    <input type="number" name="Cantidad" id="Cant" required onblur="CantidadC()">
+                </div>
+                    <input type="button" id="btn" name="CPeso" value="Convertir a Dolar (USD)" onclick="ConDolar()">
+                    <input type="button" id="btn" name="CDolar" value="Convertir a Peso Mexicano (MXN)" onclick="ConPeso()">
+                <div class="Divs">
+                    <label>Cantidad convertida: </label>
+                    <label id="TOTAL"></label>
+                    <br>
+                </div>
+            </form>
+        </div>
+        <script src="./main.js"></script>
+    </body>
+</html>

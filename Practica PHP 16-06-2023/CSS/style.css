@@ -1,0 +1,54 @@
+*{
+    font-family: comfortaa, cursive;
+}
+body{
+    background-color: darksalmon;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+    box-shadow: 0em 0em 1em 1em #ffff;
+    border-radius: 10%;
+    box-sizing: border-box;
+    margin: 1em 1em 1em 1em;
+    padding: 2em 2em 2em 2em;
+}
+
+h1.Titulo{
+    margin-bottom: 1em;
+}
+.Log-In {
+    padding: 2em 2em 2em 2em;
+}
+form.Log-In{
+    display: table;
+}
+
+div.Divs{
+    display: table-row;
+    padding: 1em 1em;
+}
+input:valid{
+    background-color: lawngreen;
+}
+input:invalid{
+    background-color: orangered;
+}
+label, input {
+    display: table-cell;
+    margin-bottom: 1em;
+}
+
+label {
+    padding-right: 2em;
+}
+button{
+    background-color: lawngreen;
+    width: 10em;
+}
